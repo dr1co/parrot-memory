@@ -26,17 +26,16 @@ h1 {
 ul {
     list-style-type: none;
     width: 906px;
-    margin: 0 auto;
+    margin: 28px auto;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 li {
     width: 117px;
     height: 146px;
     background-color: #99CEA8;
-    margin: 28px 17px;
     border-radius: 5px;
     display: flex;
     justify-content: center;
@@ -48,6 +47,18 @@ li img {
     height: 100px;
 }
 
+li:hover {
+    cursor: pointer;
+}
+
+.frente {
+    display: none;
+}
+
+.verso {
+    display: flex;
+}
+
 @media (max-width: 600px) {
     h1 {
         font-size: 36px;
@@ -57,5 +68,10 @@ li img {
         width: 100%;
         align-items: center;
         flex-direction: column;
+        margin: 0 auto;
+    }
+
+    li {
+        margin: 17px 0;
     }
 }
