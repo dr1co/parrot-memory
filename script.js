@@ -120,10 +120,10 @@ function desvirarCartasCorretas()
             }
             else
             {
-                while(resposta !== "não")
+                while(resposta !== "não" || resposta !== "sim")
                 {
                     alert("INSIRA UMA RESPOSTA VÁLIDA")
-                    resposta = prompt("Deseja jogar novamente")
+                    resposta = prompt("Deseja jogar novamente? ('sim' ou 'não')")
                     if(resposta === "sim")
                     {
                         cartasQtd = Number(prompt("Com quantas cartas deseja jogar? (coloque um número entre 4 e 14)"))
@@ -132,11 +132,13 @@ function desvirarCartasCorretas()
                         document.querySelector(".linha-1").innerHTML = ""
                         document.querySelector(".linha-2").innerHTML = ""
                         iniciarJogo()
+                        return 0
                     }
-                    else if(resposta === "não")
+                    else
                     {
                         alert("Obrigado por jogar!")
                         clearInterval(timer)
+                        return 0
                     }
                 }
             }
