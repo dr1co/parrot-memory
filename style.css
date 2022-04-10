@@ -2,8 +2,34 @@
     box-sizing: border-box;
 }
 
+@font-face {
+    font-family: 'digital_dream_fat';
+    src: url('/midia/fontes/digital-dream/digitaldreamfat-webfont.woff2') format('woff2'),
+         url('/midia/fontes/digital-dream/digitaldreamfat-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 body {
     background-color: #EEF9BF;
+}
+
+.relogio {
+    margin: 20px;
+    padding: 5px 4px;
+    width: 176px;
+    height: 56px;
+    border: 5px solid rgb(172, 172, 172);
+    box-shadow: 2px 2px 5px rgb(15, 15, 15);
+    background-color: #000000;
+    font-family: 'digital_dream_fat';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 40px;
+    color: rgb(255, 0, 0);
+    position: absolute;
+    top: 0px;
+    right: 0px;
 }
 
 .titulo {
@@ -81,6 +107,10 @@ li:hover {
 
 .correto .verso {
     display: none;
+}
+
+.correto:hover {
+    cursor: auto;
 }
 
 .congelar-site {
