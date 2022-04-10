@@ -136,4 +136,15 @@ li:hover {
     li {
         margin: 17px 0;
     }
+    
+    .relogio {
+        margin: 0;
+        padding: 6px 5.5px;
+        width: 96px;
+        height: 36px;
+        border: 3px solid rgb(172, 172, 172);
+        font-family: "digital_dream_fat";
+        font-size: 20px;
+        position: fixed;
+    }
 }

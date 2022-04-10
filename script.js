@@ -103,7 +103,7 @@ function desvirarCartasCorretas()
             {
                 alert(`Você ganhou o jogo em ${jogadas} jogadas!\nTempo de jogo: ${tempo} segundos`)   
             }
-            let resposta = prompt("Deseja jogar novamente?")
+            let resposta = prompt("Deseja jogar novamente? ('sim' ou 'não')")
             if(resposta === "sim")
             {
                 cartasQtd = Number(prompt("Com quantas cartas deseja jogar? (coloque um número entre 4 e 14)"))
