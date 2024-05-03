@@ -4,7 +4,7 @@ Para ler em português, [clique aqui](#ptbr)
 
 ### Description (EN)
 
-_**Note**: The airhead developer that created this project accidentally erased all the images, and will work in the future to select other images to display in the cards. This game can't be played properly for now..._
+_**Update**: New gifs added to replace the old ones! Game is working again!_
 
 Parrot Memory is a simple memory game involving parrot gifs. The goal of the user is to match the pairs of cards as quickly as possible.
 
@@ -12,7 +12,7 @@ The flow is simple. The user just have to select a number of cards between 4 and
 
 ### <a name="ptbr" /> Descrição (PT-BR)
 
-_**Nota**: O desenvolvedor cabeça de vento que criou este projeto apagou acidentalmente todas as imagens e vai trabalhar no futuro para selecionar outras imagens para exibir nas cartas. Este jogo não pode ser jogado corretamente por enquanto..._
+_**Atualização**: Novos gifs adicionados para substituir os antigos! O jogo está funcionando novamente!_
 
 Parrot Memory é um jogo de memória simples envolvendo GIFs de papagaios. O objetivo do usuário é encontrar os pares de cartas o mais rápido possível.
 
